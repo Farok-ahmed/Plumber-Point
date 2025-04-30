@@ -41,7 +41,6 @@ const AboutService = () => {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
     },
   ];
-  console.log(data);
 
   return (
     <div className="grid grid-cols-2  items-center justify-between gap-[40px] py-7">

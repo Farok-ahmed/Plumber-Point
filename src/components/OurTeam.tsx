@@ -1,10 +1,8 @@
-import { useState } from "react";
 import { initialPlumbers } from "../libs/data";
 import type { Plumber } from "../libs/data.ts";
 import TeamCard from "./TeamCard.tsx";
 const OurTeam = () => {
-  const [plumbers, setPlumbers] = useState<Plumber[]>(initialPlumbers);
-  console.log(plumbers);
+  const plumbers: Plumber[] = initialPlumbers;
 
   return (
     <div>
